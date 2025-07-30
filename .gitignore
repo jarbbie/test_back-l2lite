@@ -1,0 +1,12 @@
+# Go binaries
+*.exe
+*.out
+*.test
+
+# IDE stuff
+.vscode/
+.idea/
+
+# Temporary files
+tmp/
+
