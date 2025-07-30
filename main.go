@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 	"github.com/gin-gonic/gin"
-	"github.com/OmnivaultLabs/back-l2lite/parser"
+	"github.com/jarbbie/back-l2lite/parser"
 )
 
 func main() {
