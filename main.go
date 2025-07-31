@@ -3,14 +3,14 @@ package main
 import (
 	"net/http"
 	"github.com/gin-gonic/gin"
-	"github.com/jarbbie/back-l2lite/parser"
+	"github.com/jarbbie/test_back-l2lite/parser"
 )
 
 func main() {
 	r := gin.Default()
 
-	// POST /upload
-	r.POST("/upload", func(c *gin.Context) {
+	// POST /uploads
+	r.POST("/uploads", func(c *gin.Context) {
 		file, err := c.FormFile("file")
 		if err != nil {
 			c.JSON(http.StatusBadRequest, gin.H{"error": "File is required"})
